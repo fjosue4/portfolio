@@ -101,35 +101,45 @@ h3 {
 .primary-icons {
     margin-top: 2rem;
     font-size: 4rem;
-    width: 40vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.secondary-icons {
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
+.work-icons {
     font-size: 2rem;
-    width: 40vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.fa-html5:hover {
+.work-icon {
+  margin: 1rem;
+}
+
+.html5-icon:hover {
     color: #F78543;
     transition: color 0.4s;
 }
 
-.fa-css3-alt:hover {
+.css-icon:hover {
     color: #67AFEA;
     transition: color 0.4s;
 }
 
-.fa-square-js:hover {
+.js-icon:hover {
     color: #F0DB4F;
     transition: color 0.4s;
+}
+
+.gh-icon:hover {
+    color: #F4CBB2;
+    transition: color 0.4s;
+}
+
+.figma-icon:hover {
+  color: #F53DB7;
+  transition: color 0.4s;
 }
 
 .pr-icon:hover,.au-icon:hover,.ae-icon:hover {
@@ -169,7 +179,7 @@ main h2 {
   font-family: 'Inria Sans', Helvetica, sans-serif;
   font-size: 2.5rem;
   margin-top: -1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .work-categories {
@@ -282,8 +292,14 @@ a {
   cursor: pointer;
 }
 
+.brands {
+  border: 1.5px #fff solid;
+  padding: 1rem 8rem;
+  border-radius: 1rem;
+}
+
 .work-filter span {
-  margin-top: -4rem;
+  margin-top: 0.2rem;
 }
 
 .project-boxes {
@@ -292,6 +308,7 @@ a {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 
 .featured-project {
