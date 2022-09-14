@@ -162,6 +162,11 @@ h3 {
     transition: color 0.4s;
 }
 
+.obs-icon:hover {
+  color: #1769aa;
+  transition: color 0.4s;
+}
+
 .work-filter {
   background: rgb(47,47,47);
   background: linear-gradient(180deg, rgba(47,47,47,1) 0%, rgba(30,30,30,1) 100%);
@@ -296,6 +301,14 @@ a {
   border: 1.5px #fff solid;
   padding: 1rem 8rem;
   border-radius: 1rem;
+}
+
+.brands h3 {
+  margin-top: 0.1rem;
+}
+
+.brands img{
+  margin: 0.5rem 1rem;
 }
 
 .work-filter span {
@@ -808,6 +821,10 @@ a {
 @media screen and (max-width: 884px) {
   .featured-project, .project-texts {
     width: 600px;
+  }
+
+  .brands{
+    padding: 0.5rem 2rem;
   }
 
   .project-modal {
