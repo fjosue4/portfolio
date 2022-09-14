@@ -866,12 +866,82 @@ a {
 }
 
 @media screen and (max-width: 684px) {
+
+  .brands{
+    max-width: 84%;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .brands img{
+    width: 20%;
+  }
+
   .featured-project, .project-texts {
     width: 400px;
     height: 150px;
   }
   
+  .modal-preview {
+    margin-bottom: 1rem;
+  }
 
+  .project-modal {
+    padding-top: 48%;
+  }
+
+  .modal-content h3, .modal-content p {
+    text-align: center;
+  }
+
+  .modal-details-web .modal-preview img {
+    width: 150px;
+  }
+  
+  .secondary-project, .project-texts-secondary {
+    width: 400px;
+    height: 150px;
+  }
+
+  .two-col-projects {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .work-categories .box {
+    width: 400px;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  html {
+    font-size: 14px;
+}
+
+.modal-content {
+    width: 80%;
+
+}
+}
+
+@media screen and (max-width: 420px) {
+  .hero{
+    height: 120vh;
+  }
+  .featured-project, .project-texts {
+    width: 320px;
+    height: 110px;
+  }
+  
   .modal-preview {
     margin-bottom: 1rem;
   }
