@@ -565,7 +565,7 @@ a {
   filter: blur(4px) brightness(14%);
 }
 
-#report-bg {
+#banners-bg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -573,7 +573,7 @@ a {
   background-size: cover;
   background-position: center;
   transition: all 0.4s ease;
-  background-image: url("../img/report.jpg");
+  background-image: url("../img/banners.jpg");
   position: absolute;
   top: 0;
   left: 0;
@@ -582,7 +582,7 @@ a {
   border-radius: .8rem;
 }
 
-.secondary-project:hover > #report-bg {
+.secondary-project:hover > #banners-bg {
   filter: blur(4px) brightness(14%);
 }
 
@@ -747,6 +747,10 @@ a {
 .modal-details-web .modal-preview img {
   width: 300px;
   border-radius: .48rem;
+}
+
+.banner-preview {
+  width: 184px !important;
 }
 
 .title-divider {
