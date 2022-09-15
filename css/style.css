@@ -64,6 +64,7 @@ h3 {
   width: 80%;
 }
 
+
 .vertical-line {
     border-left: 4px solid #fff;
     border-radius: 99px;
@@ -313,7 +314,12 @@ a {
 }
 
 .brands img{
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 1.2rem;
+  transition: 0.2s;
+}
+
+.brands img:hover{
+  transform: scale(1.1);
 }
 
 .work-filter span {
