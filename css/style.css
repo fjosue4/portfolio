@@ -59,6 +59,11 @@ h3 {
   margin-left: .2rem;
 }
 
+.web-projects p, .video-projects p{
+  margin: 0 auto;
+  width: 80%;
+}
+
 .vertical-line {
     border-left: 4px solid #fff;
     border-radius: 99px;
@@ -876,9 +881,17 @@ a {
     width: 20%;
   }
 
+  .logo2x {
+    width: 30% !important;
+  }
+
   .featured-project, .project-texts {
     width: 400px;
     height: 150px;
+  }
+
+  .headline h2 {
+    margin-top: -1rem;
   }
   
   .modal-preview {
@@ -933,9 +946,15 @@ a {
 }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-height: 600px) and (max-height: 800px) {
   .hero{
     height: 120vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero{
+    height: 100vh;
   }
   .featured-project, .project-texts {
     width: 320px;
@@ -959,8 +978,8 @@ a {
   }
   
   .secondary-project, .project-texts-secondary {
-    width: 400px;
-    height: 150px;
+    width: 320px;
+    height: 110px;
   }
 
   .two-col-projects {
@@ -969,7 +988,8 @@ a {
   }
 
   .work-categories .box {
-    width: 400px;
+    width: 300px;
+    height: 148px;
   }
 
   .intro {
