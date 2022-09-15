@@ -891,7 +891,7 @@ a {
     width: 30% !important;
   }
 
-  .featured-project, .project-texts {
+  .featured-project, .project-texts, .secondary-project, .project-texts-secondary{
     width: 400px;
     height: 150px;
   }
@@ -914,11 +914,6 @@ a {
 
   .modal-details-web .modal-preview img {
     width: 150px;
-  }
-  
-  .secondary-project, .project-texts-secondary {
-    width: 400px;
-    height: 150px;
   }
 
   .two-col-projects {
@@ -962,7 +957,7 @@ a {
   .hero{
     height: 100vh;
   }
-  .featured-project, .project-texts {
+  .featured-project, .project-texts, .secondary-project, .project-texts-secondary {
     width: 320px;
     height: 110px;
   }
@@ -983,10 +978,6 @@ a {
     width: 150px;
   }
   
-  .secondary-project, .project-texts-secondary {
-    width: 320px;
-    height: 110px;
-  }
 
   .two-col-projects {
     flex-direction: column;
