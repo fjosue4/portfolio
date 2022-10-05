@@ -138,6 +138,11 @@ h3 {
     transition: color 0.4s;
 }
 
+.react-icon:hover {
+    color: #61DAFB;
+    transition: color 0.4s;
+}
+
 .gh-icon:hover {
     color: #F4CBB2;
     transition: color 0.4s;
