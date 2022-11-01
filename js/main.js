@@ -32,28 +32,3 @@ document.addEventListener('keydown', function(event){
 	}
 });
 }
-
-// var player;
-// function onYouTubePlayerAPIReady() {
-//     player = new YT.Player(documnr, {
-//         events: {
-//             'onReady': onPlayerReady
-//         }
-//     });
-// }
-
-// function stopPlayer() {
-//     player.stopVideo();
-// }
-
-// function onPlayerReady(event) {
-//     for (let j = 0; j < closeModal.length; j++) {
-//     closeModal[j].addEventListener('click', () => {
-//         projectModal[j].style.display = 'none';
-//             player.stopVideo();
-//         });
-
-// var tag = document.createElement('script');
-// tag.src = "https://www.youtube.com/player_api";
-// var firstScriptTag = document.getElementsByTagName('script')[0];
-// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
