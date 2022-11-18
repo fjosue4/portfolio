@@ -17,7 +17,7 @@ for (let i = 0; i < projectDiv.length; i++) {
         });
 
     projectDiv[i].addEventListener("click", () => {
-        projectModal[i].style.display = "block";
+        projectModal[i].style.display = "flex";
         divTextAndButton[i].style.visibility = 'hidden';
             });
     }

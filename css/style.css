@@ -670,7 +670,6 @@ a {
   position: fixed;
   margin: 0 auto;
   z-index: 1;
-  padding-top: 10%;
   left: 0;
   top: 0;
   width: 100%;
@@ -767,9 +766,6 @@ a {
 /* Responsive */
 
 @media screen and (max-width: 1650px) {
-  .project-modal {
-    padding-top: 8%;
-  }
 
   .modal-content {
     width: 60%;
@@ -825,10 +821,6 @@ a {
     width: 800px;
   }
 
-  .project-modal {
-    padding-top: 20%;
-  }
-
   .modal-content {
     width: 90%;
   }
@@ -845,10 +837,6 @@ a {
 
   .brands{
     padding: 0.5rem 2rem;
-  }
-
-  .project-modal {
-    padding-top: 30%;
   }
 
   .modal-details-web {
@@ -914,7 +902,10 @@ a {
   }
 
   .project-modal {
-    padding-top: 48%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .modal-content h3, .modal-content p {
@@ -973,10 +964,6 @@ a {
   
   .modal-preview {
     margin-bottom: 1rem;
-  }
-
-  .project-modal {
-    padding-top: 48%;
   }
 
   .modal-content h3, .modal-content p {
